@@ -1,0 +1,80 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    width: 100%;
+}
+
+form{
+    width: 50%;
+    margin: 50px auto;
+}
+
+.content{
+    display: flex;
+    justify-content: space-between;
+    margin:  30px 0;
+}
+
+.content input[type='text'],textarea,input[type='email']{
+    width: 50%;
+    
+}
+
+input[type='email'],input[type='text']{
+    padding: 5px 0;
+}
+
+.one,.two{
+    width: 87%;
+    margin: 30px auto;
+    border:  1px solid rgb(199, 189, 189) ;
+    padding: 20px 80px;
+
+}
+
+
+.two{
+    width: 85%;
+    padding: 10px 90px;
+}
+
+.btn{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    gap: 30px;
+}
+.btn input[type='reset'],input[type='submit']{
+    padding: 7px 15px;
+}
+
+.container{
+    display: flex;
+    gap: 40px;
+}
+h1{
+    text-align: right;
+}
+
+select{
+    width: 120px;
+    padding: 5px 0;
+}
+.select{
+    display: flex;
+    gap: 20px;
+}
+
+.gender{
+    transform: translateX(-280px);
+}
+
+.hobbies{
+    transform: translateX(-100px);
+}
+table td,th{
+    margin: 5px;
+}

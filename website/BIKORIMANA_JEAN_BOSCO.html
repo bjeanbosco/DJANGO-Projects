@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bikorimana Jean Bosco</title>
+</head>
+<style>
+    body{
+        background-color: rgb(103, 103, 231);
+        width: 100%;
+    }
+    .container{
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    form{
+        padding: 50px 30px;
+        background-color: rgb(46, 121, 46);
+        padding-right: 50px;
+        border-radius: 15px;
+    }
+    form div{
+        padding: 10px 0;
+        width: 300px;
+    }
+    form input[type='text']{
+        width: 100%;
+        padding: 5px 10px; 
+        outline: 0;
+        border-radius: 8px;
+        font-size: 15px;
+       }
+       h1{
+        color: whitesmoke;
+        text-align: center;
+       }
+       label{
+        color: whitesmoke;
+        opacity: .6;
+        font-weight: 600;
+       }
+       button{
+        width: 50%;
+        margin-top: 15px;
+        background-color: orange;
+        border: none;
+        padding: 7px 0;
+        border-radius: 5px;
+        cursor: pointer;
+        font-size: 17px;
+        color: white;
+       }
+       button:hover{
+        background-color: white;
+        color: black;
+     
+       }
+       select{
+        width: 100%;
+        padding: 8px 0;
+        border: none;
+        font-size: 17px;
+       }
+</style>
+<body>
+    <div class="container">
+       
+        <form action="">
+            <h1>Application form</h1>
+            <label>FistName:</label>
+            <div>
+                <input type="text" placeholder="Enter YOur firstname ...." required>
+            </div>
+            <label>LastName:</label>
+            <div>
+                <input type="text" placeholder="Enter YOur Larstname ...." required>
+            </div>
+            <label>Telephone:</label>
+            <div>
+                <input type="text" placeholder="Enter YOur telehone number ...." required>
+            </div>
+            <label for="gender">Gender:</label>
+            <div>
+                <input type="radio" name="gender" value="male"> <label for="">Male</label>
+                <input type="radio" name="gender"  value="female"><label for="">Female</label>
+                <input type="radio" name="gender" value="other"><label for="">Other</label>
+            </div>
+            
+            <div>
+                <label for="course">Courses</label>
+                <select name="" id="">
+                    <option value="bit">select department</option>
+                    <option value="bit">BIT</option>
+                    <option value="bit">Finance</option>
+                    <option value="bit">Accounting</option>
+                    <option value="bit">Banking</option>
+                </select>
+            </div>
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+</body>
+</html>

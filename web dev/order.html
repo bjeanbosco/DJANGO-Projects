@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="navbar">
+        <ul>
+          <li><a href="Home.html">Home</a></li>
+          <li><a href="about us.html">About Us</a></li>
+          <li><a href="menu.html">Menu</a></li>
+          <li><a href="order.html" class="active">Order</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+          <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+          </div>
+
+       
+          <form>
+            <h1 class="header">Food Order Form</h1>
+              <label for="name">Name:</label>
+              <input type="text" id="name" name="name" placeholder="Enter names .... Aline" required>
+      
+              <label for="room">Email:</label>
+              <input type="email" id="email" name="email" placeholder="Enter your emial.... @gmail.com" required>
+              <label for="telephone">Telehone:</label>
+              <input type="text" id="telephone" name="telephone" placeholder="Enter your tel +250....." required>
+              <label for="loacation">Location:</label>
+              <input type="text" id="location" name="location" placeholder="Enter your Location example Gikondo....." required>
+              <label for="food-type">Select Food Type:</label>
+              <select id="food-type" name="food-type" required>
+                  <option value="">Select Food Type</option>
+                  <option value="appetizer">Chicken</option>
+                  <option value="main-course">Fish</option>
+                  <option value="dessert">Meat</option>
+                  <option value="beverage">Beverage</option>
+              </select>
+      
+              <label for="special-requests">Special Requests:</label>
+              <textarea id="special-requests" name="special-requests" rows="4" cols="50" placeholder="describe your request its optional"></textarea>
+      
+              <input type="submit" value="Submit Order">
+          </form>
+
+            
+          <footer class="footer">
+            <p>&copy; Jean Bosco. All right reserved</p>
+        </footer>
+
+</body>
+</html>
